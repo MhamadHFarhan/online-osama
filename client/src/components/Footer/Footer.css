@@ -1,0 +1,217 @@
+/*page footer*/
+.footer{
+  background-color: #333;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/*footer container width*/
+.footer-container{
+    display: flex;
+    width: 90%;
+    padding-top: 3%
+}
+/* footer Link */
+.footer-link{
+    display: block;
+    width: 15%;
+}
+/* footer Link title*/
+.footer-link-title{
+    text-align: left;
+    margin-bottom: 10%;
+}
+/*class footer Link title h2*/
+.footer-link-title h2{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+/*class footer Link menu div*/
+.footer-link-menu div{
+    display: block;
+    text-align: left;
+    padding: 10px 0;
+}
+/*class footer Link menu Link*/
+.footer-link-menu a{
+    text-decoration: none;
+    color: silver;
+}
+.footer-link-menu a:hover{
+    text-decoration: none;
+    color: white;
+}
+/*class footer Link menu span text*/
+.footer-link-menu span{
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+
+
+
+/* footer Contact Us*/
+.footer-Contact-Us{
+    display: block;
+    width: 20%;
+}
+/* footer Contact Us title*/
+.footer-Contact-Us-title{
+    text-align: left;
+    margin-bottom: 10%;
+}
+/* footer Contact Us title tag h2*/
+.footer-Contact-Us-title h2{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+/* footer Contact Us menu tag div*/
+.footer-Contact-Us-menu div{
+    display: block;
+    text-align: left;
+    padding: 10px 0;
+}
+/* footer Contact Us menu Link*/
+.footer-Contact-Us-menu a{
+    color: silver;
+    text-decoration: none;
+}
+
+.footer-Contact-Us-menu a:hover{
+    color: white;
+}
+/* footer Contact Us menu tag span*/
+.footer-Contact-Us-menu span{
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+
+/*footer Newsletter*/
+.footer-Newsletter{
+    display: block;
+    width: 20%;
+}
+/*class footer Newsletter title*/
+.footer-Newsletter-title{
+    text-align: left;
+    margin-bottom: 9%;
+}
+/*class footer Newsletter title*/
+.footer-Newsletter h2{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+/*class footer Newsletter menu tag div*/
+.footer-Newsletter-menu div{
+    display: block;
+    text-align: left;
+    padding: 11px 0;
+}
+.footer-Newsletter-menu input{
+  width: 71%;
+  height: 22px;
+  font-size: 12px;
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+}
+.footer-Newsletter-menu input:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+      -webkit-box-shadow: 0 0 8px #88D5E9;
+      box-shadow: 0 0 8px #88D5E9;
+      border: 1px solid #88D5E9;
+  }
+/*class footer Newsletter menu tag span*/
+.footer-Newsletter span{
+    color: silver;
+    font-size: 11px;
+}
+.footer-Newsletter button:hover {
+    opacity: 0.9;
+    background: silver;
+    color: black;
+  }
+/*class footer Newsletter menu tag button*/
+.footer-Newsletter button{
+    background-color: blue;
+    width: 71%;
+    height: 25px;
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+  border: none;
+}
+
+/*footer-Social-media*/
+.footer-Social-media{
+    display: block;
+    width: 20%;
+}
+.footer-Social-title{
+    text-align: left;
+    margin-bottom: 10%;
+}
+.footer-Social-title h2{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.Social-media-menu div{
+    display: block;
+    text-align: left;
+    padding: 11px 0;
+}
+.Social-media-menu a{
+    color: silver;
+    text-decoration: none;
+}
+.Social-media-menu a:hover{
+    color: white;
+}
+.Social-media-menu span{
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+/* footer Copyright */
+.Copyright{
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+@media(max-width:700px){
+    .footer{
+        width: 100%;
+    }
+    .footer-container{
+        display: block;
+        margin-left: 12%;
+    }
+    .footer-link{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .footer-Contact-Us{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .footer-Social-media{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .footer-Newsletter{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}

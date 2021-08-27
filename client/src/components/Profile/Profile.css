@@ -1,0 +1,124 @@
+.profile {
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://images.unsplash.com/photo-1557821552-17105176677c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8b25saW5lJTIwc2hvcHBpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.row-navbar-porfile {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.col-navbar {
+  width: 25%;
+  background: #111;
+}
+.sidenav {
+  min-height: 90vh;
+  width: 100%;
+  z-index: 1;
+  right: 0;
+  background: #111;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 10px;
+}
+.sidenav img {
+  width: 50px;
+  margin-left: 40%;
+  border-radius: 50%;
+  margin-bottom: 5%;
+}
+.sidenav p {
+  text-align: center;
+  font-size: 13px;
+  color: #969595;
+}
+.sidenav hr {
+  border-bottom: 1px solid silver;
+}
+.sidenav ul li {
+  width: 100%;
+  text-align: left;
+  list-style: none;
+  display: inline-block;
+  padding: 10% 0px;
+  margin-left: 10%;
+}
+.sidenav ul {
+  width: 100%;
+}
+.sidenav ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #818181;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav i {
+  padding-right: 15px;
+  color: white;
+}
+
+.col-profile {
+  width: 90%;
+}
+.row-Profile {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  background: #111;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+.Profile-information-img {
+  width: 25%;
+}
+.Profile-information-img img {
+  width: 90%;
+  border-radius: 50%;
+}
+.Profile-information-label {
+  width: 16%;
+}
+
+.Profile-information-label label {
+  padding-left: 10px;
+  color: silver;
+  display: block;
+  text-align: left;
+  padding-bottom: 5%;
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.Profile-information-user {
+  width: 30%;
+}
+.Profile-information-user label {
+  display: block;
+  text-align: left;
+  padding-bottom: 5%;
+  padding-top: 1px;
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 700px) {
+.col-navbar{
+  display: none;
+}
+.col-profile{
+  width: 100%;
+}
+.Profile-information-label{
+  width: 30%;
+  font-size: 12px;
+}
+.Profile-information-user{
+  width: 30%;
+  font-size: 14px;
+}
+}

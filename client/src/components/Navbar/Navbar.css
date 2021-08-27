@@ -1,0 +1,207 @@
+.Navbar {
+  width: 100%;
+  background-color: #333;
+}
+.row-Navbar{
+  display: flex;
+  width: 90%;
+  height:50px;
+}
+.col-Navbar-logo{
+  width: 20%;
+  display: flex;
+  padding-top: 1%;
+}
+.col-Navbar-logo h2{
+  font-weight: 600;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  padding-top: 2%;
+  text-align: left;
+}
+.col-Navbar-menu {
+  display: inline-block;
+    width: 70%;
+    height: 30px;
+    text-align: left;
+}
+.col-Navbar-menu nav{
+  
+  padding-top: 0%;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-Navbar-menu {
+  flex: 1;
+  text-align: center;
+}
+.col-Navbar-menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px;
+  position: relative;
+}
+.col-Navbar-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+.col-Navbar-menu ul li i {
+  color: white;
+}
+.col-Navbar-menu ul li::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: orangered;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.col-Navbar-menu ul li:hover:after {
+  width: 100%;
+}
+
+.col-Navbar-profile {
+  width: 30%;
+  text-align: left;
+  padding-top: 2px;
+}
+.col-Navbar-profile nav{
+  width: 90%;
+}
+.col-Navbar-profile ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 4% 0px;
+  padding-right: 10%;
+}
+.col-Navbar-profile ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+.col-Navbar-profile ul li i {
+  color: white;
+}
+.col-Navbar-profile ul li::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: orangered;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.col-Navbar-profile ul li:hover:after {
+  width: 100%;
+}
+.col-Navbar-profile img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.Navbar-Profile-Setting {
+  width: 60%;
+  position: relative;
+  background: rgb(94, 94, 94);
+  margin-left: 50%;
+  margin-top: -7%;
+}
+.Navbar-Profile-User {
+  display: block;
+  text-align: left;
+  width: 66%;
+}
+.Navbar-Profile-User div {
+  display: block;
+  text-align: left;
+  padding: 8px 0px;
+}
+.Navbar-Profile-User a {
+  text-decoration: none;
+  color: silver;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.Navbar-Profile-User a:hover {
+  text-decoration: none;
+  color: white;
+}
+.col-Navbar-logo i{
+  display: none;
+}
+.menu-list{
+  display: none;
+}
+@media(max-width:700px){
+  .row-Navbar{
+   width: 100%;
+  }
+  .col-Navbar-menu{
+  display: none;
+  }
+  .col-Navbar-logo{
+    width: 40%;
+    display: block;
+ }
+ .Navbar-logo{
+   display: flex;
+   margin-right: 30%;
+   margin-top: 10px;
+   margin-bottom: 3%;
+ }
+ .col-Navbar-logo .fa{
+  display: block;
+  color: silver;
+  font-size: 20px;
+  cursor: pointer;
+}
+ .col-Navbar-logo h2{
+   padding-left: 25px;
+   font-size: 15px;
+ }
+ .col-Navbar-profile{
+  width: 51%;
+   overflow-x: hidden;
+   position: relative;
+ }
+
+.menu-list{
+  position: relative;
+  display: block;
+  background: #111;
+  width: 263%;
+  height: 100%;
+  margin-left: -19%;
+  z-index: 1;
+  overflow-x: hidden;
+  margin-top: -2%;
+}
+.Navbar-List-mobile{
+  display: block;
+  width: 60%;
+}
+.Navbar-List-mobile ul li{
+  width: 20%;
+  display: flex;
+  padding-top: 3%;
+}
+.Navbar-List-mobile ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #818181;
+  cursor: pointer;
+}
+.Navbar-List-mobile .fa{
+  padding-right: 60%;
+  color: white;
+}
+.Navbar-List-mobile a:hover {
+  color: #f1f1f1;
+}
+}

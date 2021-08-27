@@ -1,0 +1,174 @@
+.MyAds {
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://images.unsplash.com/photo-1557821552-17105176677c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8b25saW5lJTIwc2hvcHBpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.row-navbar-myAds {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.col-navbar-myAds {
+  width: 25%;
+  background: #111;
+}
+.sidenav-myAds{
+  min-height: 180vh;
+  width: 100%;
+  z-index: 1;
+  right: 0;
+  top: 0%;
+  background: #111;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 10px;
+
+}
+.sidenav-myAds hr {
+  border-bottom: 1px solid silver;
+}
+.sidenav-myAds p {
+  text-align: center;
+  font-size: 13px;
+  color: #969595;
+}
+.sidenav-myAds img{
+  width: 50px;
+  margin-left: 40%;
+  border-radius: 50%;
+  margin-bottom: 5%;
+}
+
+.col-myAds {
+  width: 90%;
+  display: block;
+margin-top: 8%;
+margin-bottom: 5%;
+}
+
+.col-myAds h4 {
+  margin-bottom: 1%;
+  color: red;
+  font-family: "Roboto", sans-serif;
+  width: 70%;
+}
+.sidenav-myAds ul {
+  width: 100%;
+}
+.sidenav-myAds ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #818181;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.sidenav-myAds a:hover {
+  color: #f1f1f1;
+}
+.sidenav-myAds i {
+  padding-right: 15px;
+  color: white;
+}
+.sidenav-myAds ul li {
+  width: 100%;
+  text-align: left;
+  list-style: none;
+  display: inline-block;
+  padding: 10% 0px;
+  margin-left: 10%;
+}
+.col-myAds hr {
+  border-bottom: 1px solid silver;
+}
+.info-myAds {
+  width: 70%;
+  border: 1px solid silver;
+  display: block;
+  margin-bottom: 1%;
+  background: black;
+}
+.MyAds-user{
+  display: inline-flex;
+  padding-bottom: 1%;
+}
+.MyAds-post-info{
+  display: flex;
+  width: 100%;
+}
+
+.MyAds-post-img{
+  width: 35%;
+}
+.MyAds-post-info img{
+  width: 111%;
+  height: 125px;
+  margin-left: -15px;
+}
+
+.MyAds-title-city p{
+  text-align: left;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+}
+
+
+.MyAds-Price-Phone{
+  width: 25%;
+}
+.MyAds-Price-Phone p{
+  text-align: left;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+
+}
+.MyAds-Price-Phone button{
+  width: 90%;
+  height: 30px;
+  background: blue;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #bebebe;
+  -webkit-transition: all 0.3s ease-in-out;
+  outline: none;
+  font-size: 14px;
+}
+.MyAds-Price-Phone button:hover {
+  -moz-box-shadow: 0 0 8px #88d5e9;
+  -webkit-box-shadow: 0 0 8px #88d5e9;
+  box-shadow: 0 0 8px #88d5e9;
+  border: 1px solid #88d5e9;
+}
+.MyAds-Price-Phone a{
+ text-decoration: none;
+ color: white;
+}
+@media (max-width: 700px) {
+  .row-navbar-myAds{
+    width: 100%;
+  }
+  .col-navbar-myAds{
+    display: none;
+  }
+  .col-myAds{
+    width: 90%;
+  }
+  .info-myAds{
+    width: 90%;
+  }
+  .MyAds-post-img img{
+    margin-left: -5px;
+  }
+  .col-myAds h4{
+    width: 90%;
+  }
+  .col-myAds hr{
+    width: 90%;
+  }
+}

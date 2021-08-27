@@ -1,0 +1,121 @@
+.NewPost {
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://images.unsplash.com/photo-1557821552-17105176677c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8b25saW5lJTIwc2hvcHBpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  min-height: 130vh;
+  background-position: center;
+  background-size: cover;
+}
+.row-NewPost {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.col-NewPost-P{
+    width: 50%;
+    display: block;
+    text-align: left;
+    margin-top: 10%;
+    position: relative;
+}
+.col-NewPost-P h2{
+  text-align: left;
+  color: red;
+  padding-bottom: 3%;
+  font-size: 20px;
+}
+.col-NewPost-P p{
+  text-align: left;
+  color: rgb(255 255 255);
+  font-family: "Roboto", sans-serif;
+  padding-left: 0%;
+  padding-top: 4%;
+  padding-bottom: 4px;
+  width: 100%;
+  font-size: 15px;
+}
+.col-NewPost-input {
+  width: 70%;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+.col-NewPost-input label {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.col-NewPost-input input{
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	-webkit-transition: all 0.30s ease-in-out;
+	outline: none;	
+  background: #333;
+  width: 90%;
+  height: 33px;
+  padding-left: 2%;
+  color: white;
+}
+.col-NewPost-input input:focus {
+  -moz-box-shadow: 0 0 8px #88d5e9;
+  -webkit-box-shadow: 0 0 8px #88d5e9;
+  box-shadow: 0 0 8px #88d5e9;
+  border: 1px solid #88d5e9;
+}
+.col-NewPost-input button {
+  width: 60%;
+  height: 35px;
+  color: white;
+  background: blue;
+  opacity: 0.9;
+  cursor: pointer;
+  border: none;
+  font-family: sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  box-sizing: border-box;
+  border: 1px solid #bebebe;
+  outline: none;
+  margin-left: 16%;
+}
+.col-NewPost-input button:hover {
+  opacity: 0.9;
+  background: silver;
+  color: black;
+}
+.col-NewPost-input select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #bebebe;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  font-family: Arial;
+  width: 90%;
+  height: 33px;
+  padding-left: 2%;
+  margin-right: 10%;
+  display: block;
+}
+.col-NewPost-input select:focus {
+  -moz-box-shadow: 0 0 8px #88d5e9;
+  -webkit-box-shadow: 0 0 8px #88d5e9;
+  box-shadow: 0 0 8px #88d5e9;
+  border: 1px solid #88d5e9;
+}
+@media(max-width:700px){
+  .row-NewPost{
+    width: 90%;
+  }
+  .col-NewPost-P{
+    display: none;
+  }
+  .col-NewPost-input{
+    margin-left: 100px;
+  }
+}

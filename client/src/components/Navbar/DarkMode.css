@@ -1,0 +1,51 @@
+/*body background white*/
+body.light-mode {
+    background-color: white;
+    color:black;
+    transition: background-color 0.3s ease;
+  }
+  /*body background black*/
+  body.dark-mode {
+    background-color: #1a1919;
+    color: white;
+  }
+
+  /*Dark Mode input */
+  body.dark-mode input{
+    background: #333;
+    color: white;
+  }
+  /*Dark Mode textarea */
+  body.dark-mode textarea{
+    background: #333;
+    color:white ;
+  }
+  /*Dark Mode input Search*/
+
+  /*Dark Mode Select Option*/
+  body.dark-mode select{
+    background: #333;
+    color:white ;
+  }
+
+  /*Dark Mode h1*/
+  body.dark-mode h2 {
+    color: red;
+  }
+  body.dark-mode h3{
+    color: red;
+  }
+  /*Dark Mode lable*/
+  body.dark-mode label{
+    color: silver;
+  }
+  /*Dark Mode p*/
+  body.dark-mode label{
+    color: white;
+  }
+  body.light-mode h3{
+    color: black;
+  }
+  body.light-mode h2{
+    color: black;
+  }

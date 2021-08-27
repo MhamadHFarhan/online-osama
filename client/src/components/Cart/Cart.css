@@ -1,0 +1,136 @@
+.cart {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+.row-cart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+.col-cart-Inf {
+  width: 60%;
+  margin: 10%;
+  display: block;
+}
+.col-cart-Inf div{
+  width: 110%;
+}
+.col-cart-Inf h4 {
+  margin-bottom: 5%;
+  color: red;
+  font-family: "Roboto", sans-serif;
+}
+.col-cart-Inf hr {
+  border-bottom: 1px solid silver;
+}
+.inf-Cart {
+  width: 100%;
+  border: 1px solid silver;
+  display: flex;
+  margin-bottom: 10%;
+}
+.inf-cart-img {
+  width: 30%;
+}
+.inf-Cart p {
+  text-align: left;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+}
+.inf-Cart button{
+  width: 90%;
+  height: 35px;
+  color: white;
+  background: blue;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #bebebe;
+  -webkit-transition: all 0.3s ease-in-out;
+  outline: none;
+  font-size: 13px;
+ 
+}
+.inf-Cart button:hover {
+  -moz-box-shadow: 0 0 8px #88d5e9;
+  -webkit-box-shadow: 0 0 8px #88d5e9;
+  box-shadow: 0 0 8px #88d5e9;
+  border: 1px solid #88d5e9;
+}
+
+
+.col-cart-order {
+  width: 100%;
+  margin: 10%;
+  display: block;
+}
+.col-cart-order div{
+  width: 100%;
+  margin-bottom: 2%;
+}
+.col-cart-order h4 {
+  margin-bottom: 5%;
+  color: red;
+  font-family: "Roboto", sans-serif;
+}
+.col-cart-order hr {
+  border-bottom: 1px solid silver;
+}
+.order-total{
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.col-cart-order button{
+  width: 70%;
+  height: 35px;
+  color: white;
+  background: blue;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #bebebe;
+  -webkit-transition: all 0.3s ease-in-out;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  font-size: 13px;
+  margin-left: 15%;
+  margin-bottom: 10px;
+}
+.col-cart-order button:hover {
+  -moz-box-shadow: 0 0 8px #88d5e9;
+  -webkit-box-shadow: 0 0 8px #88d5e9;
+  box-shadow: 0 0 8px #88d5e9;
+  border: 1px solid #88d5e9;
+}
+.col-cart-order table, td,th{
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.col-cart-order table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.col-cart-order th, td {
+  padding: 10px;
+}
+@media (max-width: 700px) {
+  .row-cart{
+    display: block;
+    width: 50%;
+    margin-left: 13%;
+  }
+  .col-cart-Inf{
+    width: 100%;
+  }
+  .col-cart-order{
+    width: 130%;
+  }
+}

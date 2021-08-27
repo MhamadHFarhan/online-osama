@@ -1,0 +1,56 @@
+.Home{
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://images.unsplash.com/photo-1557821552-17105176677c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8b25saW5lJTIwc2hvcHBpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.Home-text{
+display: block;
+text-align: center;
+padding-top: 10%;
+
+}
+.Home-text h3 {
+  font-size: 30px;
+  padding-bottom: 2%;
+}
+.Home-text p{
+  font-size: 13px;
+  color: rgb(204, 202, 202);
+  padding-bottom: 2%;
+
+}
+.Home-text button{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #222;
+  font-size: 13px;
+  padding: 12px 34px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+
+}
+.Home button:hover{
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+@media(max-width:700px){
+  .Home-text{
+    width: 60%;
+  }
+  .Home-text h3 {
+    font-size: 20px;
+  }
+  .Home-text p{
+    font-size: 15px;
+  }
+  .Home-text button{
+    width: 50%;
+    font-size: 10px;
+  }
+}

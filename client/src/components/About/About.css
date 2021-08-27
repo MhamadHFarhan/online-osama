@@ -1,0 +1,52 @@
+/* page About */
+.About {
+  margin-bottom: 5%;
+  width: 100%;
+}
+.About-Text{
+  margin: auto;
+  text-align: center;
+  padding: 60px;
+}
+.About-Text h2{
+  font-size: 36px;
+  font-weight: 600;
+}
+.About-Text p{
+  color:rgb(211, 211, 211);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row-About{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.col-About{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.col-About h3{
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 15px;
+  text-align: center;
+}
+.col-About:hover{
+  box-shadow:0 0 50px rgba(252, 0, 0, 0.2) ;
+}
+.col-About img{
+  width: 95%; 
+  height:250px;
+}
+@media(max-width:700px){
+  .row-About{
+    flex-direction: column;
+  }
+}
